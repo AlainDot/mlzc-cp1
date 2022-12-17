@@ -1,0 +1,30 @@
+joblib==1.2.0
+    # via scikit-learn
+numpy==1.23.5
+    # via
+    #   pandas
+    #   scikit-learn
+    #   scipy
+    #   xgboost
+pandas==1.5.2
+    # via -r C:\Users\alain\AppData\Local\Temp\tmpmdwf1g73bentoml_bento_patient_diabete_risk_service\env\python\requirements.txt
+pydantic==1.10.2
+    # via -r C:\Users\alain\AppData\Local\Temp\tmpmdwf1g73bentoml_bento_patient_diabete_risk_service\env\python\requirements.txt
+python-dateutil==2.8.2
+    # via pandas
+pytz==2022.6
+    # via pandas
+scikit-learn==1.2.0
+    # via -r C:\Users\alain\AppData\Local\Temp\tmpmdwf1g73bentoml_bento_patient_diabete_risk_service\env\python\requirements.txt
+scipy==1.9.3
+    # via
+    #   scikit-learn
+    #   xgboost
+six==1.16.0
+    # via python-dateutil
+threadpoolctl==3.1.0
+    # via scikit-learn
+typing-extensions==4.4.0
+    # via pydantic
+xgboost==1.7.2
+    # via -r C:\Users\alain\AppData\Local\Temp\tmpmdwf1g73bentoml_bento_patient_diabete_risk_service\env\python\requirements.txt

@@ -1,0 +1,51 @@
+service: patient_diabete_risk:svc
+name: patient_diabete_risk_service
+version: ttf3w5d54cdbcnht
+bentoml_version: 1.0.12
+creation_time: '2022-12-17T07:58:44.752054+00:00'
+labels:
+  owner: alainD
+  stage: dev
+models:
+- tag: patient_diabete_risk:4ngty4d4wcbjynht
+  module: bentoml.xgboost
+  creation_time: '2022-12-15T19:44:28.795154+00:00'
+runners:
+- name: patient_diabete_risk
+  runnable_type: XGBoostRunnable
+  models:
+  - patient_diabete_risk:4ngty4d4wcbjynht
+  resource_config: null
+apis:
+- name: classify
+  input_type: JSON
+  output_type: JSON
+docker:
+  distro: debian
+  python_version: '3.9'
+  cuda_version: null
+  env: null
+  system_packages: null
+  setup_script: null
+  base_image: null
+  dockerfile_template: null
+python:
+  requirements_txt: null
+  packages:
+  - xgboost
+  - pandas
+  - scikit-learn
+  - pydantic
+  lock_packages: true
+  index_url: null
+  no_index: null
+  trusted_host: null
+  find_links: null
+  extra_index_url: null
+  pip_args: null
+  wheels: null
+conda:
+  environment_yml: null
+  channels: null
+  dependencies: null
+  pip: null

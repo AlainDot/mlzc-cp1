@@ -1,0 +1,18 @@
+name: patient_diabete_risk
+version: 4ngty4d4wcbjynht
+module: bentoml.xgboost
+labels: {}
+options:
+  model_class: Booster
+metadata: {}
+context:
+  framework_name: xgboost
+  framework_versions:
+    xgboost: 1.7.2
+  bentoml_version: 1.0.12
+  python_version: 3.9.11
+signatures:
+  predict:
+    batchable: false
+api_version: v2
+creation_time: '2022-12-15T19:44:28.795154+00:00'
