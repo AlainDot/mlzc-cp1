@@ -92,7 +92,9 @@ In addition to readme and notebooks:
 - Run the notebooks or directly train the model using the script [train_patient_diabete_risk.py](/train_patient_diabete_risk.py)   
     
 - Dockerize the model and deploy it to the Cloud following [cp1-50-Deplyment.ipynb](cp1-50-Deplyment.ipynb)    
-    - bentoml image deployed here (includes trained model) is available in [bentoml folder](/bentoml/)   
+    - bentoml image deployed here (includes trained model) is available in [bentoml folder](/bentoml/)  
+    - docker image is available in DOcker ub at:
+      - https://hub.docker.com/r/alaindut/patient_diabete_risk_service   
     - Free account has to be created at https://studio.mogenius.com/     
     
 - Or using swagger, test the model deployed (if running!):        
