@@ -95,7 +95,7 @@ In addition to readme and notebooks:
     
     - bentoml image deployed here (includes trained model) is available in [bentoml folder](/bentoml/)  
     
-    - docker image is available in Docker hub at:
+    - docker image is available (pull) in Docker hub at:
       - https://hub.docker.com/r/alaindut/patient_diabete_risk_service   
      
     - Free account has to be created at https://studio.mogenius.com/     
